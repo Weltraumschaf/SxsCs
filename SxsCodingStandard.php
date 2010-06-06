@@ -305,7 +305,7 @@ class PHP_CodeSniffer_Standards_Sxs_SxsCodingStandard extends PHP_CodeSniffer_St
               ///////////////////////
               /* Commenting: */
               'Sxs/Sniffs/Commenting/FileCommentSniff.php',
-              'PEAR/Sniffs/Commenting/ClassCommentSniff.php',
+              'Sxs/Sniffs/Commenting/ClassCommentSniff.php',
               'PEAR/Sniffs/Commenting/FunctionCommentSniff.php',
               'PEAR/Sniffs/Commenting/InlineCommentSniff.php',
 //            'PEAR/Sniffs/ControlStructures/ControlSignatureSniff.php',
