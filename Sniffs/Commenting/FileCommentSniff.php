@@ -43,7 +43,7 @@ if (class_exists('PHP_CodeSniffer_CommentParser_ClassCommentParser', true) === f
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-class PEAR_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff {
+class Sxs_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff {
 
     /**
      * The header comment parser for the current file.
@@ -733,7 +733,7 @@ class PEAR_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff {
             if (empty($content) === true) {
                 $error = 'Content missing for @version tag in file comment';
                 $this->currentFile->addError($error, $errorPos);
-            } else if (!is_numeric($content, 'SVN:')) {
+            } else if (!is_numeric($content)) {
                 $error = "Invalid version \"$content\" in file comment; consider a numeric value instead (e.g. 0.3.5)";
                 $this->currentFile->addWarning($error, $errorPos);
             }
