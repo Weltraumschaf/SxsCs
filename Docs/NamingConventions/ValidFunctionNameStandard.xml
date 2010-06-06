@@ -1,0 +1,8 @@
+<documentation title="Function name">
+    <standard>
+    <![CDATA[
+    The name of a function or method must begin with a lowercase character.
+    The whole name must be in camel case. A leading underscore is not allowed.
+    ]]>
+    </standard>
+</documentation>

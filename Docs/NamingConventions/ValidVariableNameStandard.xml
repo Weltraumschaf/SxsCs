@@ -1,0 +1,8 @@
+<documentation title="Variable name">
+    <standard>
+    <![CDATA[
+    The name of a variable or member must begin with a lowercase character.
+    The whole name must be in camel case. A leading underscore is not allowed.
+    ]]>
+    </standard>
+</documentation>
