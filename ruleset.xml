@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-see http://www.squizlabs.com/php-codesniffer/upgrading-for-1.3.0
+    @see http://www.squizlabs.com/php-codesniffer/upgrading-for-1.3.0
 -->
 <ruleset name="Sxs">
     <description>Weltraumschafs coding standard</description>
@@ -213,7 +213,7 @@ see http://www.squizlabs.com/php-codesniffer/upgrading-for-1.3.0
     <!--
     * Checks that all uses of true, false and null are lowerrcase.
     -->
-    <rule ref="'Generic.PHP.LowerCaseConstant"/>
+    <rule ref="Generic.PHP.LowerCaseConstant"/>
 
     <!--
     * Checks that two strings are not concatenated together; suggests

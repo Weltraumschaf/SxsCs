@@ -33,21 +33,10 @@
 class Sxs_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengthSniff
 {
 
-    /**
-     * The limit that the length of a line should not exceed.
-     *
-     * @var int
-     */
-    protected $lineLimit = 100;
-
-    /**
-     * The limit that the length of a line must not exceed.
-     *
-     * Set to zero (0) to disable.
-     *
-     * @var int
-     */
-    protected $absoluteLineLimit = 120;
+    public function  __construct() {
+        $this->lineLimit = 100;
+        $this->absoluteLineLimit = 120;
+    }
 
     /**
      * Checks if a line is too long.

@@ -32,6 +32,8 @@
  */
 class Sxs_Sniffs_Metrics_CyclomaticComplexitySniff extends Generic_Sniffs_Metrics_CyclomaticComplexitySniff
 {
-    protected $complexity = 20;
-    protected $absoluteComplexity = 30;
+    public function  __construct() {
+        $this->complexity = 20;
+        $this->absoluteComplexity = 30;
+    }
 }
